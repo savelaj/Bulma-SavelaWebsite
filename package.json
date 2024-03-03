@@ -2,11 +2,7 @@
   "name": "bulma",
   "version": "0.9.4",
   "homepage": "https://bulma.io",
-  "author": {
-    "name": "Jeremy Thomas",
-    "email": "bbxdesign@gmail.com",
-    "url": "https://jgthms.com"
-  },
+  "author": "Jeremy Thomas <bbxdesign@gmail.com> (https://jgthms.com)",
   "description": "Modern CSS framework based on Flexbox",
   "main": "bulma.sass",
   "unpkg": "css/bulma.css",
@@ -29,7 +25,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "clean-css-cli": "^5.6.2",
-    "node-sass": "^9.0.0",
     "postcss-cli": "^10.1.0",
     "rimraf": "^5.0.5"
   },
@@ -52,5 +47,12 @@
     "bulma.sass",
     "LICENSE",
     "README.md"
-  ]
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
 }
