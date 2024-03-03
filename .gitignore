@@ -19,3 +19,8 @@ _site
 dev
 node_modules
 test/output/
+
+
+# custom
+package-lock.json
+*.lock
